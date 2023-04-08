@@ -1,0 +1,211 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prodigy</title>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <a href="#" class="logo"><img src="./images/prodigy/logo.jpeg"></a>
+            <a href="#" class="active">Inicio</a>
+            <a href="#">Carrito</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="categories">
+            <div
+                class="category-item"
+                style="background-image: url('images/categories/Tenis.jpg');"
+            >
+                <div class="category-item-inner">
+                    <div>
+                        Tenis
+                    </div>
+                </div>
+            </div>
+            <div
+                class="category-item"
+                style="background-image: url('images/categories/Mujer.jpg');"
+            >
+                <div class="category-item-inner">
+                    <div>
+                        Mujer
+                    </div>
+                </div>
+            </div>
+            <div
+                class="category-item"
+                style="background-image: url('images/categories/Hombre.jpg');"
+            >
+                <div class="category-item-inner">
+                    <div>
+                        Hombre
+                    </div>
+                </div>
+            </div>
+            <div
+                class="category-item"
+                style="
+                    background-image: url('images/categories/medias3.jpeg');
+                "
+            >
+                <div class="category-item-inner">
+                    <div>
+                        Accesorios
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h2 class="featured-products-title">
+            Productos destacados
+        </h2>
+        <section class="featured-products">
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p1.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    basica t-shirt
+                </p>
+                <p class="description">
+                    Una camiseta perfecta para los dias calidos!
+                </p>
+                <p class="price">
+                     $35.000
+                </p>
+                <button id="ver-item-1" onclick="verDetallesProducto('producto-1')">
+                    ver item
+                </button>
+            </div>
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p2.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    Conjunto deportivo dama 
+                </p>
+                <p class="description">
+                    Perfecto para entrenar!
+                </p>
+                <p class="price">
+                    $55.000
+                </p>
+                <button id="ver-item-2" onclick="verDetallesProducto('producto-2')">
+                    Ver item
+                </button>
+            </div>
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p3.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    Pantaloneta licra importada
+                </p>
+                <p class="description">
+                    perfecta para tus entrenamientos y actividades deportivas
+                </p>
+                <p class="price">
+                   $45.000
+                </p>
+                <button id="ver-item-3" onclick="verDetallesProducto('producto-3')">
+                    Ver item
+                </button>
+            </div>
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p4.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    Top malla 
+                </p>
+                <p class="description">
+                    perfecta para lucir cómoda y fresca en cualquier ocasión
+                </p>
+                <p class="price">
+                    $35.000
+                </p>
+                <button id="ver-item-4" onclick="verDetallesProducto('producto-4')">
+                    Ver item
+                </button>
+            </div>
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p5.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    Polo dri fit
+                </p>
+                <p class="description">
+                    Prenda perfecta para tus entrenamientos.
+                </p>
+                <p class="price">
+                    $55.000
+                </p>
+                <button id="ver-item-5" onclick="verDetallesProducto('producto-5')">
+                    ver item
+                </button>
+            </div>
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p6.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    Top efecto cuero
+                </p>
+                <p class="description">
+                    Perfecto para entrenar
+                </p>
+                <p class="price">
+                    $25.000
+                </p>
+                <button id="ver-item-6" onclick="verDetallesProducto('producto-6')">
+                    Ver item
+                </button>
+            </div>
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p7.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    Gorras
+                </p>
+                <p class="description">
+                   Perfectas para tus outfits casuales
+                </p>
+                <p class="price">
+                    $35.000
+                </p>
+                <button id="ver-item-7" onclick="verDetallesProducto('producto-7')">
+                    Ver item
+                </button>
+            </div>
+            <div class="featured-product-item">
+                <div
+                    style="background-image: url('images/products/p8.jpg');"
+                    class="featured-product-item-image"
+                ></div>
+                <p class="title">
+                    tenis
+                </p>
+                <p class="description">
+                    perfectos para entrenar!
+                </p>
+                <p class="price">
+                    Desde $110.000
+                </p>
+                <button id="ver-item-8" onclick="verDetallesProducto('producto-8')">
+                    Ver item
+                </button>
+            </div>
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
